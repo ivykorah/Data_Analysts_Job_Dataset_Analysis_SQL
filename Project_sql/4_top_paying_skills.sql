@@ -8,8 +8,8 @@ Question: What are the top skills based on salary?
 
 select 
     skills as skill_name,
-    count(skills) count_of_skill,
-    round(avg(salary_year_avg),0) as salary_average
+    round(avg(salary_year_avg),0) as salary_average,
+    count(skills) count_of_skill
 FROM
     job_postings_fact jf
 INNER JOIN 
@@ -24,7 +24,7 @@ GROUP BY
     sd.skills
 ORDER BY 
     salary_average DESC
-LIMIT 25
+LIMIT 25;
 
 
 

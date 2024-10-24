@@ -46,4 +46,4 @@ GROUP BY
     sd.skills
 ORDER BY 
     count_of_skill DESC
-LIMIT 10
+LIMIT 10;
