@@ -297,18 +297,31 @@ Find the count of the number of remote job postings per skill
 
 --solution
 With top_skills as (
-    select skill_id, count(*) as number_of_posting
-    from job_postings_fact j 
-    inner join skills_job_dim sj on j.job_id = sj.job_id
-    where job_work_from_home = true and job_title_short = 'Data Analyst'
-    GROUP BY skill_id
+    select 
+        skill_id, 
+        count(*) as number_of_posting
+    from 
+        job_postings_fact j 
+    inner join 
+        skills_job_dim sj on j.job_id = sj.job_id
+    where 
+        job_work_from_home = true and 
+        job_title_short = 'Data Analyst'
+    GROUP BY 
+        skill_id
 )
 
-select top_skills.skill_id as skill_id, sd.skills as Skill_name, top_skills.number_of_posting
-from skills_dim sd
-inner join top_skills on top_skills.skill_id = sd.skill_id
-ORDER BY number_of_po sting DESC
-Limit 5
+select 
+    top_skills.skill_id as skill_id, 
+    sd.skills as Skill_name, 
+    top_skills.number_of_posting
+from 
+    skills_dim sd
+inner join 
+    top_skills on top_skills.skill_id = sd.skill_id
+ORDER BY 
+    number_of_posting DESC
+Limit 5;
 
 
 /* Unions are used to combine result of two or more select statements into a single result set

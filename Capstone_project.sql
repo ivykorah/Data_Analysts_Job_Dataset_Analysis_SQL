@@ -8,7 +8,7 @@ BUT also to extract what roles/skills you should target */
 
 
 /*? Questions to Answer
-1. What are the top-paying jobs for my role?
+1. What are the top-paying jobs for my role? Data analyst in my case
 2. What are the skills required for these top-paying roles?
 3. What are the most in-demand skills for my role?
 4. What are the top skills based on salary for my role?
