@@ -184,7 +184,6 @@ LIMIT 10;
 Query revealed that the most in-deman skills for Data analyst roles include SQL, Excel, Python, Tableau and PowerBI.  
 For roles in Estonia, the most in-deman skills for Data analyst roles include SQL, Python, Tableau, Excel and Looker.  
 
-## SQL Analysis Results
 
 The following table summarizes the count of skills identified in the dataset:
 
@@ -202,8 +201,6 @@ The following table summarizes the count of skills identified in the dataset:
 | SAP          | 11,297          |
 *In-demands skills for Data Analysts*  
 
-
-## Estonia SQL Analysis Results
 
 The following table summarizes the count of skills identified in Estonia:
 
