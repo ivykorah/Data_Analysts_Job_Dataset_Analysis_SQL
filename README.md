@@ -198,7 +198,8 @@ The following table summarizes the count of skills identified in the dataset:
 | SAS          | 28,068          |
 | PowerPoint   | 13,848          |
 | Word         | 13,591          |
-| SAP          | 11,297          |
+| SAP          | 11,297          |  
+
 *In-demands skills for Data Analysts*  
 
 
@@ -215,7 +216,8 @@ The following table summarizes the count of skills identified in Estonia:
 | Power BI     | 20              |
 | SAS          | 14              |
 | Go           | 13              |
-| Airflow      | 8               |   
+| Airflow      | 8               |     
+
 *In-demands skills for Data Analysts in Estonia*    
 
 ### 4. Top skills based on salary:
