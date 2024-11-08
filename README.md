@@ -10,7 +10,7 @@
 
 # Background
 This analysis is driven by my interest in Data analysis using SQL for database manipulation, and a quest to navigate the data analyst job market more effectively by understanding salary expectaitions and skills required. This project aims at pinpointing top-paid and in-demand skills from the provided dataset.  
-🗂️ Data for the project can be found on the [sqlliteviz website](https://sqliteviz.com/app/#/workspace?hide_schema=1:~:text=Search%20table-,jobs_2023,-company_dim) linked from Luke Barousse's [SQL Course](https://lukebarousse.com/sql).  
+🗂️ Data for the project can be found on the [sqlliteviz website](https://www.lukeb.co/sql_jobs_db) linked from Luke Barousse's [SQL Course](https://lukebarousse.com/sql).  
 It is packed with tables and columns as listed below:
 | **job_postings_fact table**| **company_dimension table** | **skills_job_dimension table** | **skills_dimension table** |
 |----------------------------|-----------------------|---------------------|----------------|
